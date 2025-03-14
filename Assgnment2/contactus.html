@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+
+.person-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.person {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+.person img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: #fff;
+}
+        
+       
+        form{
+            position: absolute;
+            height: 50%;
+            width: 350px;
+            margin-left: 30%;
+            max-width: 400px;
+            box-shadow: 3px 3px 10px black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        socialmedia img{
+            position: absolute;
+            height: 35px;
+            width: 25px;
+            margin-left: 20px;
+            border-radius: 10rem;
+        } 
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PORTIFOLIO WEBSITE</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact">
+        
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
+    <div class="socialmedia">
+ 
+       <a href="https://web..com"> <img src="images/watsapp.png" width="100"></a>whatsapp
+        
+         <a href="https://www..com">  <img src="images/instagram.png" width="100"></a>Instagram
+         <a href="https://www..com">  <img src="images/facebook.png" width="100"></a>Facebook
+          <a href="https://x.com/i/flow/login">  <img src="images/download.png" width="100"></a>X
+        
+    </div>
+
+   
+    <footer>
+        <p>&copy; 2025  All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
